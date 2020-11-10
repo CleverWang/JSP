@@ -1,0 +1,57 @@
+body {
+  min-width: 1080px;
+  background-color: #EDEDEF;
+}
+img{
+border-radius: 10px;
+}
+header {
+  background-color: #6495ED;
+  text-align: right;
+  padding: 5px;
+}
+input:focus,
+button:focus {
+  outline: none;
+}
+button i {
+  border: none;
+  border-radius: 0;
+  color: #eee;
+}
+header > .sign {
+  width: 15%;
+  display: inline-block;
+  color: #fff;
+  font-size: 18px;
+}
+header > .sign  a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+header > .sign  a:hover {
+  opacity: .8;
+}
+main {
+  width: 880px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+.my_table {
+  padding: 20px 40px;
+  background-color: #fff;
+  margin-bottom: 80px;
+  text-align: right;
+}
+.table {
+  background-color: #fff !important;
+  border-radius: 4px;
+  text-align: left;
+}
+.table tr th {
+  border-top: 0 !important;
+  border-bottom: 2px solid #ddd;
+  font-weight: bold;
+  padding: 20px;
+}

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app>
+    <servlet>
+        <servlet-name>registerservlet</servlet-name>
+        <servlet-class>servlets.registerservlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>registerservlet</servlet-name>
+        <url-pattern>/registerservlet</url-pattern>
+    </servlet-mapping>
+	
+	<servlet>
+        <servlet-name>loginservlet</servlet-name>
+        <servlet-class>servlets.loginservlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>loginservlet</servlet-name>
+        <url-pattern>/loginservlet</url-pattern>
+    </servlet-mapping>
+	
+	<servlet>
+        <servlet-name>buyservlet</servlet-name>
+        <servlet-class>servlets.buyservlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>buyservlet</servlet-name>
+        <url-pattern>/buyservlet</url-pattern>
+    </servlet-mapping>
+	
+	<servlet>
+        <servlet-name>lendservlet</servlet-name>
+        <servlet-class>servlets.lendservlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>lendservlet</servlet-name>
+        <url-pattern>/lendservlet</url-pattern>
+    </servlet-mapping>
+	
+	<servlet>
+        <servlet-name>dumpservlet</servlet-name>
+        <servlet-class>servlets.dumpservlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>dumpservlet</servlet-name>
+        <url-pattern>/dumpservlet</url-pattern>
+    </servlet-mapping>
+	
+	<servlet>
+        <servlet-name>breakdownservlet</servlet-name>
+        <servlet-class>servlets.breakdownservlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>breakdownservlet</servlet-name>
+        <url-pattern>/breakdownservlet</url-pattern>
+    </servlet-mapping>
+</web-app>
